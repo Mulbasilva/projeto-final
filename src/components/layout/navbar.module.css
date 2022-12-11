@@ -6,6 +6,7 @@
     align-items: center;
     font-size: 1.7rem;
     padding: 1.5rem;
+    
 }
 
 .nav_list{
@@ -14,14 +15,18 @@
 
 .list{
     margin-right: 1.5rem;
+    
 }
 
 .link{
     color: #fff;
+    text-decoration: none;
 }
 
 .title{
     color: #fff;
+    
+    
 }
 
 .link:hover{

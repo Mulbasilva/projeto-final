@@ -1,13 +1,14 @@
 import React from "react"
 import styles from "./inicio.module.css"
+import Carousell from "./Carousell"
 
 function Inicio(){
     return(
         <section>
 
             <div className={styles.parte1}>
-                <div className={styles.imagem1}>
-                    <img src="https://via.placeholder.com/800x430" alt="" />
+                <div>
+                    <Carousell />
                 </div>
 
                 <div className={styles.imagem1}>

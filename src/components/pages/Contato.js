@@ -1,6 +1,6 @@
 import React from "react"
-import imagem from "./whatsapp.svg"
 import imagem1 from "./contact.png"
+import imagem from "./whatsapp.svg"
 
 
 function Contato(){
@@ -17,6 +17,8 @@ function Contato(){
                     <img src={imagem} alt="" />
                 </div>
             </div>
+
+            
         </section>
     )
 }
