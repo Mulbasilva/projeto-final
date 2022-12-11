@@ -1,0 +1,51 @@
+.footer{
+    display: flex;
+    background-color: #444;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.parceiro{
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.copy{
+    text-align: center;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.copy_1{
+    color: #fff;
+}
+
+.rsociais{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    margin-right: 1rem;
+}
+
+.link{
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.rtitle{
+    margin-left: 42px;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.link:hover{
+    color: rgb(136, 30, 30); 
+}
+
+

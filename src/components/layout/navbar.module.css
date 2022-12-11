@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #02483e;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 1.5rem;
+}
+
+.nav_list{
+    display: flex;
+}
+
+.list{
+    margin-right: 1.5rem;
+}
+
+.link{
+    color: #fff;
+}
+
+.title{
+    color: #fff;
+}
+
+.link:hover{
+    color: #444;
+}
