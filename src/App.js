@@ -4,24 +4,23 @@ import Inicio from "./components/pages/Inicio"
 import Sobre from "./components/pages/Sobre"
 import Cadastro from "./components/pages/Cadastro"
 import Contato from "./components/pages/Contato"
-import Footer from "./components/layout/Footer"
 import Navbar from "./components/layout/Navbar"
-// import Container from "./components/layout/Container"
+import Container from "./components/layout/Container"
+import Footer from "./components/layout/Footer"
 
 function App() {
   return (
     <Router>
       <Navbar />
 
-  
-        <Routes>
-          <Route exact path="/" element={<Inicio />}/>
-          <Route path="/sobre" element={<Sobre />}/>
-          <Route path="/cadastro" element={<Cadastro />}/>
-          <Route path="/contato" element={<Contato />}/>
-
-        </Routes>
-      
+        <Container customClass="min_height">
+          <Routes>
+            <Route exact path="/" element={<Inicio />}/>
+            <Route path="/sobre" element={<Sobre />}/>
+            <Route path="/cadastro" element={<Cadastro />}/>
+            <Route path="/contato" element={<Contato />}/>
+          </Routes>
+        </Container>
 
       <Footer />
     </Router>
