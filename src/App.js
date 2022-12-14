@@ -20,10 +20,14 @@ function App() {
             <Route path="/cadastro" element={<Cadastro />}/>
             <Route path="/contato" element={<Contato />}/>
           </Routes>
+
+
         </Body>
 
       <Footer />
     </Router>
+    
+  
   )
 }
 
