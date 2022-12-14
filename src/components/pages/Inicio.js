@@ -84,18 +84,18 @@ function Inicio(){
 
                                 <ol>
                                     <li>
-                                        <Link>Escola - 1</Link>
+                                        <Link to="escolacasabrasileira.com.br" target="_blank">CASA BRASILEIRA</Link>
                                     </li>
                                     <li>
-                                        <Link>Escola - 2</Link>
+                                    <Link to="escolacasabrasileira.com.br" target="_blank">ESPAÇO DE BITITA</Link>
                                     </li>
                                     <li>
-                                        <Link>Escola - 3</Link>
+                                    <Link to="escolacasabrasileira.com.br" target="_blank">ESCOLA DA IMIGRAÇÃO</Link>
                                     </li>
                                 </ol>
                                 
                                 </Card.Text>
-                                <Button variant="primary">Saiba mais várias esolas</Button>
+                                <Button variant="primary">Conheça outras escolas</Button>
                             </Card.Body>
                         </Card>
                     </div>
